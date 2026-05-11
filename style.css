@@ -1,0 +1,274 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height:100vh;
+
+    background:
+    radial-gradient(circle at left bottom,
+    #b0004b 0%,
+    #240014 30%,
+    #140014 55%,
+    #1d0033 75%,
+    #09000f 100%);
+    overflow:hidden;
+}
+.anchor1{
+    
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+span{
+    display:block;
+    width:100%;
+    height:4px;
+    background:white;
+    margin:6px 0;
+    border-radius:10px;
+}
+
+.hamburger{
+    width:40px;
+    cursor:pointer;
+}
+
+.image1{
+    height: 50px;
+    width: 120px;
+    background-size: cover;
+    background-position: center;
+
+    background-image: url("squid_game_PNG35.png");
+
+
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px 0px 25px;
+
+}
+
+.image2{
+
+    background-image: url("squid_gam2e_PNG35.PNG");
+    background-size: cover;
+    background-position: center;
+    height:400px ;
+    width: 400px;
+    position: absolute;
+    top: 23%;
+    left: 53%;
+     filter: drop-shadow(0 0 20px hotpink);
+
+}
+.text1{
+    color: white;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -13%;
+    top: 30%;
+    filter: opacity(15%);
+    font-size: 70px;
+}   
+
+
+.image3{
+
+height: 150px;
+width: 300px;
+background-image: url("squid_game_PNG35.png");
+background-size: cover;
+background-position: center;
+position: absolute;
+top: 25%;
+left:15%;
+
+
+}
+
+.midtext{
+
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    
+}
+
+.button{
+    display: flex;
+    gap: 20px;
+    justify-content:flex-start;
+    padding: 340px 0px 0px 225px;
+    
+    
+}
+.btn1{
+
+    font-size: 25px;
+    padding: 9px 30px 11px 30px;
+    background-color:#ff0055 ;
+    border: none;
+    border-radius:20px ;
+    cursor: pointer;
+    color: white;
+    transition: ease all 0.2s;
+    border:1px solid #ff0055 ;
+}
+.btn2{
+
+    font-size: 20px;
+    padding: 9px 30px 11px 30px;
+    background-color:transparent;
+    border:1px solid #ff0055 ;
+    border-radius:20px ;
+    cursor: pointer;
+    color: white;
+    transition: ease all 0.2s;
+    
+}
+.btn1:hover{
+    background-color: transparent;
+    color: white;
+}
+.btn2:hover{
+    background-color:#ff0055 ;
+    color: white;
+}
+.midtext2{
+    color: white;
+    font-size: 50px;
+    position:absolute;
+    top: 62%;
+    left: 16%;
+    filter: opacity(15%);
+    z-index: 10;
+
+   
+
+}
+.videos{
+background:linear-gradient(
+to right,
+#840984,
+#720936,
+#5b1538
+);
+height: 200px;
+width: 1000px;
+z-index: 20;
+position: absolute;
+top: 72%;
+left: 16%;
+border: none;
+border-radius: 40px;
+filter: drop-shadow(0 0 50px rgb(71, 19, 45));
+
+}
+
+.movie1{
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+    display: flex;
+    
+    gap: 50px;
+    padding: 25px 0px 0px 80px;
+    border: none;
+    outline: none;
+    filter: drop-shadow(0 0 50px rgb(33, 2, 17));
+    
+
+
+
+
+}
+img{
+    height: 150px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    background-size: cover;
+    background: transparent;
+    transition: 0.3s;
+    
+   
+    
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.social{
+    font-size: 15px;
+   
+    filter: opacity(50%);
+ color:rgb(117, 22, 63);
+}
+.insta{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin: -9% 0% 0% 85%;
+    
+
+}
+.line1{
+
+
+
+    height:70px;
+    width: 3px;
+    background:
+linear-gradient(
+45deg,
+#f09433,
+#e6683c,
+#dc2743,
+#cc2366,
+#bc1888
+);
+
+position: absolute;
+top: 40%;
+left: 48%;
+border: none;
+border-radius: 10px;
+filter: opacity(80%);
+
+
+
+
+
+}
+.scroll{
+    color: white;
+    font-size: 20px;
+    transform: rotate(-90deg);
+    position: absolute;
+top: 32%;
+left: 45.5%;
+
+}
